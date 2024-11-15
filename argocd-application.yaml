@@ -6,11 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/anuragpachauri/argocd-self-managed'
-    targetRevision: HEAD
-    path: .
-    directory:
-      recurse: true
+    repoURL: 'https://github.com/your-username/argocd-self-managed.git'
+    targetRevision: main
+    path: '.'
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: argocd
