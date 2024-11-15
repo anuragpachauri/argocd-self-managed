@@ -1,10 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - manifests/deployments/argocd-deployments.yaml
-  - manifests/services/argocd-services.yaml
-  - manifests/configmaps/argocd-configmaps.yaml
-  - manifests/secrets/argocd-secrets.yaml
+  - manifests/argocd-deployments.yaml
+  - manifests/argocd-services.yaml
+  - manifests/argocd-configmaps.yaml
+  - manifests/argocd-secrets.yaml
 
 
 
