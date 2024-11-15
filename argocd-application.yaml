@@ -9,6 +9,9 @@ spec:
     repoURL: 'https://github.com/your-username/argocd-self-managed.git'
     targetRevision: main
     path: '.'
+    kustomize:
+      # You can include kustomize-specific options here if needed
+      # For now, leave it empty
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: argocd
